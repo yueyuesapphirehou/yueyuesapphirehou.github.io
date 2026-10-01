@@ -1043,3 +1043,25 @@ h3 {
       #lfp-story .site-feature-intro { padding-top: 54px; }
       #lfp-story .site-contact { padding: 54px 0; }
     }
+
+    /* Science outreach project link */
+    #lfp-story .site-links .site-fun-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border: 1px solid var(--lfp-slow);
+      border-radius: 6px;
+      color: var(--lfp-slow);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    
+    #lfp-story .site-links .site-fun-link:hover {
+      color: var(--background);
+      background: var(--lfp-slow);
+    }
+    
+    #lfp-story .site-links .site-fun-link:focus-visible {
+      outline: 2px solid var(--foreground);
+      outline-offset: 4px;
+    }
